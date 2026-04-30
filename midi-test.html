@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>MIDI Test</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #0d0d18;
+  color: white;
+  font-family: 'Segoe UI', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 24px;
+  min-height: 100vh;
+}
+
+h1 { font-size: 1.6em; letter-spacing: 4px; color: #aaa; }
+
+#status {
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 0.95em;
+  background: #1a1a2e;
+  border: 1px solid #333;
+  color: #888;
+}
+#status.ok   { border-color: #00ff88; color: #00ff88; }
+#status.err  { border-color: #ff4444; color: #ff4444; }
+
+#devices {
+  font-size: 0.85em;
+  color: #555;
+  text-align: center;
+}
+
+/* Zone pads */
+#pads {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pad {
+  width: 140px;
+  height: 140px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  transition: background 0.05s, transform 0.05s;
+  cursor: default;
+  gap: 6px;
+}
+.pad.hit {
+  transform: scale(0.93);
+}
+
+.pad-label { font-size: 1.6em; font-weight: bold; }
+.pad-name  { font-size: 0.75em; opacity: 0.7; }
+.pad-note  { font-size: 0.7em; opacity: 0.5; }
+.pad-vel   { font-size: 0.85em; opacity: 0.8; min-height: 1.2em; }
+
+/* Log */
+#log-wrap {
+  width: 100%;
+  max-width: 700px;
+}
+#log-title { font-size: 0.8em; color: #444; margin-bottom: 8px; letter-spacing: 2px; }
+#log {
+  background: #080810;
+  border: 1px solid #222;
+  border-radius: 8px;
+  height: 200px;
+  overflow-y: auto;
+  padding: 10px 14px;
+  font-size: 0.8em;
+  line-height: 1.8;
+  color: #666;
+}
+#log .entry { display: flex; gap: 16px; }
+#log .ts    { color: #333; flex-shrink: 0; }
+#log .nn    { color: #00bbf9; width: 36px; }
+#log .nm    { color: #aaa; width: 120px; }
+#log .vl    { color: #ffd700; }
+#log .raw   { color: #444; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>MIDI SIGNAL TEST</h1>
+<div id="status">Requesting MIDI access...</div>
+<div id="devices">No devices detected</div>
+
+<div id="pads">
+  <!-- filled by JS -->
+</div>
+
+<div id="log-wrap">
+  <div id="log-title">RAW MIDI LOG</div>
+  <div id="log"><div style="color:#333;font-style:italic">Waiting for signals...</div></div>
+</div>
+
+<script>
+const NOTE_NAMES = {
+  35:'B1', 36:'C2', 37:'C#2', 38:'D2', 39:'D#2', 40:'E2',
+  41:'F2',  42:'F#2', 43:'G2', 44:'G#2', 45:'A2', 46:'A#2',
+  47:'B2',  48:'C3', 60:'C4 (middle C)',
+};
+
+const GM_DRUMS = {
+  35:'Bass Drum 2', 36:'Bass Drum',   37:'Side Stick',
+  38:'Snare',       39:'Hand Clap',   40:'Elec Snare',
+  42:'Hi-Hat ✓',    44:'HH Pedal',    46:'Hi-Hat Open',
+  49:'Crash',       51:'Ride',        57:'Crash 2',
+};
+
+// The 4 expected zones
+const ZONES = [
+  { label: 'B1',  note: 35, name: 'Left Upper',  color: '#9b5de5', key: 'a' },
+  { label: 'C2',  note: 36, name: 'Left Front',  color: '#00bbf9', key: 's' },
+  { label: 'D2',  note: 38, name: 'Right Front', color: '#f15bb5', key: 'k' },
+  { label: 'C#2', note: 37, name: 'Right Upper', color: '#fee440', key: 'l' },
+];
+
+// Build pad UI
+const padsEl = document.getElementById('pads');
+const padEls = {};
+
+ZONES.forEach(z => {
+  const div = document.createElement('div');
+  div.className = 'pad';
+  div.style.borderColor = z.color + '55';
+  div.style.background = z.color + '11';
+  div.innerHTML = `
+    <div class="pad-label" style="color:${z.color}">${z.label}</div>
+    <div class="pad-name">${z.name}</div>
+    <div class="pad-note">MIDI ${z.note} · [${z.key.toUpperCase()}]</div>
+    <div class="pad-vel" id="vel-${z.note}">—</div>
+  `;
+  padsEl.appendChild(div);
+  padEls[z.note] = div;
+});
+
+// Flash a pad
+function flashPad(note, velocity) {
+  const zone = ZONES.find(z => z.note === note);
+  const el = padEls[note];
+  if (!el) return;
+  const color = zone.color;
+
+  el.style.background = color + '55';
+  el.style.borderColor = color;
+  el.style.transform = 'scale(0.93)';
+  document.getElementById(`vel-${note}`).textContent = `vel ${velocity}`;
+
+  clearTimeout(el._timer);
+  el._timer = setTimeout(() => {
+    el.style.background = color + '11';
+    el.style.borderColor = color + '55';
+    el.style.transform = '';
+  }, 120);
+}
+
+// Log
+const logEl = document.getElementById('log');
+let logCount = 0;
+
+function addLog(note, velocity, rawBytes) {
+  if (logCount === 0) logEl.innerHTML = '';
+  logCount++;
+
+  const noteName = NOTE_NAMES[note] || `#${note}`;
+  const drumName = GM_DRUMS[note] || '—';
+  const isKnown = ZONES.some(z => z.note === note);
+
+  const row = document.createElement('div');
+  row.className = 'entry';
+  row.innerHTML = `
+    <span class="ts">${new Date().toLocaleTimeString('zh',{hour12:false,hour:'2-digit',minute:'2-digit',second:'2-digit'})}.${String(Date.now()%1000).padStart(3,'0')}</span>
+    <span class="nn" style="${isKnown?'color:#00ff88;font-weight:bold':''}">note ${note}</span>
+    <span class="nm">${noteName}</span>
+    <span class="nm" style="color:#888">${drumName}</span>
+    <span class="vl">vel=${velocity}</span>
+    <span class="raw">[${Array.from(rawBytes).join(' ')}]</span>
+  `;
+  logEl.prepend(row);
+
+  // Keep max 60 lines
+  while (logEl.children.length > 60) logEl.removeChild(logEl.lastChild);
+}
+
+// MIDI Setup
+async function initMIDI() {
+  const statusEl = document.getElementById('status');
+  const devicesEl = document.getElementById('devices');
+
+  if (!navigator.requestMIDIAccess) {
+    statusEl.textContent = 'Web MIDI not supported — use Chrome or Edge';
+    statusEl.className = 'err';
+    return;
+  }
+
+  let access;
+  try {
+    access = await navigator.requestMIDIAccess({ sysex: false });
+  } catch(e) {
+    statusEl.textContent = 'MIDI access denied: ' + e.message;
+    statusEl.className = 'err';
+    return;
+  }
+
+  statusEl.textContent = 'MIDI access granted';
+  statusEl.className = 'ok';
+
+  function updateDevices() {
+    const inputs = [...access.inputs.values()];
+    if (inputs.length === 0) {
+      devicesEl.textContent = 'No MIDI devices connected — plug in the receiver';
+      statusEl.textContent = 'MIDI ready — no devices';
+      statusEl.className = 'ok';
+    } else {
+      devicesEl.innerHTML = inputs.map(i =>
+        `<span style="color:#00ff88">✓</span> ${i.name} &nbsp; <span style="color:#555">${i.manufacturer || ''}</span>`
+      ).join('<br>');
+      statusEl.textContent = `${inputs.length} device${inputs.length>1?'s':''} connected`;
+      statusEl.className = 'ok';
+    }
+
+    inputs.forEach(input => {
+      input.onmidimessage = ({ data }) => {
+        const cmd = data[0] & 0xf0;
+        const ch  = data[0] & 0x0f;
+        const note = data[1];
+        const vel  = data[2];
+
+        // Note On (0x90) with velocity > 0, or Aftertouch (0xA0)
+        if ((cmd === 0x90 && vel > 0) || cmd === 0xa0) {
+          addLog(note, vel, data);
+          flashPad(note, vel);
+        }
+        // Note Off (0x80) or Note On with vel=0
+        else if (cmd === 0x80 || (cmd === 0x90 && vel === 0)) {
+          // ignore note-off for now
+        }
+        // Log everything else for debugging
+        else {
+          const row = document.createElement('div');
+          row.className = 'entry';
+          row.style.opacity = '0.4';
+          row.innerHTML = `<span class="ts">${Date.now()%100000}</span><span class="raw">raw: [${Array.from(data).join(' ')}] cmd=0x${cmd.toString(16)}</span>`;
+          logEl.prepend(row);
+        }
+      };
+    });
+  }
+
+  updateDevices();
+  access.onstatechange = () => {
+    updateDevices();
+  };
+}
+
+// Keyboard fallback
+const KEY_TO_NOTE = { a:35, s:36, k:38, l:37 };
+document.addEventListener('keydown', e => {
+  if (e.repeat) return;
+  const note = KEY_TO_NOTE[e.key.toLowerCase()];
+  if (note) {
+    flashPad(note, 100);
+    addLog(note, 100, new Uint8Array([0x99, note, 100]));
+  }
+});
+
+initMIDI();
+</script>
+</body>
+</html>
