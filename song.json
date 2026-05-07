@@ -1,0 +1,3631 @@
+{
+    "tempo": [
+        {
+            "time": 0.0,
+            "tempo": 29.304
+        },
+        {
+            "time": 4.0,
+            "tempo": 72.4845
+        },
+        {
+            "time": 80.0,
+            "tempo": 70.8661
+        },
+        {
+            "time": 86.0,
+            "tempo": 78.4314
+        },
+        {
+            "time": 88.0,
+            "tempo": 72.5388
+        },
+        {
+            "time": 116.0,
+            "tempo": 72.2892
+        },
+        {
+            "time": 128.0,
+            "tempo": 72.5378
+        },
+        {
+            "time": 244.0,
+            "tempo": 72.4346
+        },
+        {
+            "time": 262.0,
+            "tempo": 68.5714
+        },
+        {
+            "time": 264.0,
+            "tempo": 76.9231
+        },
+        {
+            "time": 266.0,
+            "tempo": 72.4891
+        },
+        {
+            "time": 307.5,
+            "tempo": 73.1707
+        },
+        {
+            "time": 326.0,
+            "tempo": 73.1707
+        }
+    ],
+    "time_signature": [
+        {
+            "time": 0.0,
+            "numerator": 4,
+            "denominator": 4
+        },
+        {
+            "time": 88.0,
+            "numerator": 4,
+            "denominator": 4
+        },
+        {
+            "time": 120.0,
+            "numerator": 4,
+            "denominator": 4
+        },
+        {
+            "time": 184.0,
+            "numerator": 4,
+            "denominator": 4
+        },
+        {
+            "time": 248.0,
+            "numerator": 2,
+            "denominator": 4
+        },
+        {
+            "time": 250.0,
+            "numerator": 4,
+            "denominator": 4
+        },
+        {
+            "time": 326.0,
+            "numerator": 2,
+            "denominator": 4
+        }
+    ],
+    "key_signature": [
+        {
+            "time": 0.0,
+            "key": "D"
+        }
+    ],
+    "period": [
+        {
+            "time": 4.0,
+            "label": "I"
+        },
+        {
+            "time": 36.0,
+            "label": "A1_1"
+        },
+        {
+            "time": 52.0,
+            "label": "A1_2"
+        },
+        {
+            "time": 68.0,
+            "label": "D1"
+        },
+        {
+            "time": 88.0,
+            "label": "E1_1"
+        },
+        {
+            "time": 104.0,
+            "label": "E1_2"
+        },
+        {
+            "time": 120.0,
+            "label": "L1"
+        },
+        {
+            "time": 136.0,
+            "label": "A2_1"
+        },
+        {
+            "time": 152.0,
+            "label": "A2_2"
+        },
+        {
+            "time": 168.0,
+            "label": "D2"
+        },
+        {
+            "time": 184.0,
+            "label": "E2_1"
+        },
+        {
+            "time": 200.0,
+            "label": "E2_2"
+        },
+        {
+            "time": 216.0,
+            "label": "F1"
+        },
+        {
+            "time": 232.0,
+            "label": "G"
+        },
+        {
+            "time": 250.0,
+            "label": "E3_1"
+        },
+        {
+            "time": 266.0,
+            "label": "E3_2"
+        },
+        {
+            "time": 282.0,
+            "label": "F2"
+        },
+        {
+            "time": 298.0,
+            "label": "O"
+        }
+    ],
+    "chord": [
+        {
+            "time": 4.0,
+            "figure": "Dmaj7/A",
+            "pitches": [
+                1,
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 8.0,
+            "figure": "Dmaj7/F#",
+            "pitches": [
+                1,
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 12.0,
+            "figure": "Bm7",
+            "pitches": [
+                2,
+                6,
+                9,
+                11
+            ]
+        },
+        {
+            "time": 16.0,
+            "figure": "Gmaj9(#11)",
+            "pitches": [
+                1,
+                2,
+                6,
+                7,
+                9,
+                11
+            ]
+        },
+        {
+            "time": 20.0,
+            "figure": "Dmaj7",
+            "pitches": [
+                1,
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 24.0,
+            "figure": "Dmaj7/F#",
+            "pitches": [
+                1,
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 28.0,
+            "figure": "Bm7",
+            "pitches": [
+                2,
+                6,
+                9,
+                11
+            ]
+        },
+        {
+            "time": 32.0,
+            "figure": "Gmaj9(#11)",
+            "pitches": [
+                1,
+                2,
+                6,
+                7,
+                9,
+                11
+            ]
+        },
+        {
+            "time": 36.0,
+            "figure": "D",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 40.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 44.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 48.0,
+            "figure": "Gm",
+            "pitches": [
+                2,
+                7,
+                10
+            ]
+        },
+        {
+            "time": 52.0,
+            "figure": "D",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 56.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 60.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 64.0,
+            "figure": "Gm",
+            "pitches": [
+                2,
+                7,
+                10
+            ]
+        },
+        {
+            "time": 68.0,
+            "figure": "Em9",
+            "pitches": [
+                2,
+                4,
+                6,
+                7,
+                11
+            ]
+        },
+        {
+            "time": 72.0,
+            "figure": "A7",
+            "pitches": [
+                1,
+                4,
+                7,
+                9
+            ]
+        },
+        {
+            "time": 76.0,
+            "figure": "Em9",
+            "pitches": [
+                2,
+                4,
+                6,
+                7,
+                11
+            ]
+        },
+        {
+            "time": 80.0,
+            "figure": "A",
+            "pitches": [
+                1,
+                4,
+                9
+            ]
+        },
+        {
+            "time": 84.0,
+            "figure": "A/E",
+            "pitches": [
+                1,
+                4,
+                9
+            ]
+        },
+        {
+            "time": 88.0,
+            "figure": "D",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 92.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 96.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 100.0,
+            "figure": "Gm",
+            "pitches": [
+                2,
+                7,
+                10
+            ]
+        },
+        {
+            "time": 104.0,
+            "figure": "D",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 108.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 112.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 116.0,
+            "figure": "G",
+            "pitches": [
+                2,
+                7,
+                11
+            ]
+        },
+        {
+            "time": 118.0,
+            "figure": "G/A",
+            "pitches": [
+                2,
+                7,
+                9,
+                11
+            ]
+        },
+        {
+            "time": 120.0,
+            "figure": "Dmaj7",
+            "pitches": [
+                1,
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 124.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 128.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 132.0,
+            "figure": "G",
+            "pitches": [
+                2,
+                7,
+                11
+            ]
+        },
+        {
+            "time": 136.0,
+            "figure": "D",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 140.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 144.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 148.0,
+            "figure": "Gm",
+            "pitches": [
+                2,
+                7,
+                10
+            ]
+        },
+        {
+            "time": 152.0,
+            "figure": "D",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 156.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 160.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 164.0,
+            "figure": "Gm",
+            "pitches": [
+                2,
+                7,
+                10
+            ]
+        },
+        {
+            "time": 168.0,
+            "figure": "Em9",
+            "pitches": [
+                2,
+                4,
+                6,
+                7,
+                11
+            ]
+        },
+        {
+            "time": 172.0,
+            "figure": "A7",
+            "pitches": [
+                1,
+                4,
+                7,
+                9
+            ]
+        },
+        {
+            "time": 176.0,
+            "figure": "Em9",
+            "pitches": [
+                2,
+                4,
+                6,
+                7,
+                11
+            ]
+        },
+        {
+            "time": 180.0,
+            "figure": "A",
+            "pitches": [
+                1,
+                4,
+                9
+            ]
+        },
+        {
+            "time": 181.0,
+            "figure": "Gmaj7/A",
+            "pitches": [
+                2,
+                6,
+                7,
+                9,
+                11
+            ]
+        },
+        {
+            "time": 182.0,
+            "figure": "G/A",
+            "pitches": [
+                2,
+                7,
+                9,
+                11
+            ]
+        },
+        {
+            "time": 183.0,
+            "figure": "A",
+            "pitches": [
+                1,
+                4,
+                9
+            ]
+        },
+        {
+            "time": 184.0,
+            "figure": "D",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 188.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 192.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 196.0,
+            "figure": "Gm",
+            "pitches": [
+                2,
+                7,
+                10
+            ]
+        },
+        {
+            "time": 198.0,
+            "figure": "G/A",
+            "pitches": [
+                2,
+                7,
+                9,
+                11
+            ]
+        },
+        {
+            "time": 200.0,
+            "figure": "D",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 204.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 208.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 212.0,
+            "figure": "Gm",
+            "pitches": [
+                2,
+                7,
+                10
+            ]
+        },
+        {
+            "time": 214.0,
+            "figure": "Gm/A",
+            "pitches": [
+                2,
+                7,
+                9,
+                10
+            ]
+        },
+        {
+            "time": 216.0,
+            "figure": "D",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 220.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 224.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 228.0,
+            "figure": "G",
+            "pitches": [
+                2,
+                7,
+                11
+            ]
+        },
+        {
+            "time": 232.0,
+            "figure": "Em",
+            "pitches": [
+                4,
+                7,
+                11
+            ]
+        },
+        {
+            "time": 236.0,
+            "figure": "D/F#",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 240.0,
+            "figure": "G",
+            "pitches": [
+                2,
+                7,
+                11
+            ]
+        },
+        {
+            "time": 244.0,
+            "figure": "Bb",
+            "pitches": [
+                2,
+                5,
+                10
+            ]
+        },
+        {
+            "time": 246.0,
+            "figure": "Asus",
+            "pitches": [
+                2,
+                4,
+                9
+            ]
+        },
+        {
+            "time": 250.0,
+            "figure": "D",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 254.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 258.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 262.0,
+            "figure": "Gm",
+            "pitches": [
+                2,
+                7,
+                10
+            ]
+        },
+        {
+            "time": 264.0,
+            "figure": "G/A",
+            "pitches": [
+                2,
+                7,
+                9,
+                11
+            ]
+        },
+        {
+            "time": 266.0,
+            "figure": "D",
+            "pitches": [
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 270.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 274.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 278.0,
+            "figure": "Gm",
+            "pitches": [
+                2,
+                7,
+                10
+            ]
+        },
+        {
+            "time": 280.0,
+            "figure": "Gm/A",
+            "pitches": [
+                2,
+                7,
+                9,
+                10
+            ]
+        },
+        {
+            "time": 282.0,
+            "figure": "Dmaj7",
+            "pitches": [
+                1,
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 286.0,
+            "figure": "F#m",
+            "pitches": [
+                1,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 290.0,
+            "figure": "Bm",
+            "pitches": [
+                2,
+                6,
+                11
+            ]
+        },
+        {
+            "time": 294.0,
+            "figure": "G",
+            "pitches": [
+                2,
+                7,
+                11
+            ]
+        },
+        {
+            "time": 298.0,
+            "figure": "Dmaj7/A",
+            "pitches": [
+                1,
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 302.0,
+            "figure": "Dmaj7/F#",
+            "pitches": [
+                1,
+                2,
+                6,
+                9
+            ]
+        },
+        {
+            "time": 306.0,
+            "figure": "Bm7",
+            "pitches": [
+                2,
+                6,
+                9,
+                11
+            ]
+        },
+        {
+            "time": 310.0,
+            "figure": "Gmaj9(#11)",
+            "pitches": [
+                1,
+                2,
+                6,
+                7,
+                9,
+                11
+            ]
+        },
+        {
+            "time": 312.0,
+            "figure": "A",
+            "pitches": [
+                1,
+                4,
+                9
+            ]
+        }
+    ],
+    "melodies": [
+        {
+            "name": "Part1",
+            "notes": [
+                {
+                    "pitch": 69,
+                    "start": 37.0,
+                    "end": 37.25,
+                    "text": "#\u00e5\u008e\u009f"
+                },
+                {
+                    "pitch": 71,
+                    "start": 37.25,
+                    "end": 37.75,
+                    "text": "\u00e8\u00b0\u0085"
+                },
+                {
+                    "pitch": 69,
+                    "start": 37.75,
+                    "end": 38.0,
+                    "text": "\u00e6\u0088\u0091"
+                },
+                {
+                    "pitch": 69,
+                    "start": 39.0,
+                    "end": 39.5,
+                    "text": "\u00e8\u00bf\u0099"
+                },
+                {
+                    "pitch": 71,
+                    "start": 39.5,
+                    "end": 39.75,
+                    "text": "\u00e4\u00b8\u0080"
+                },
+                {
+                    "pitch": 71,
+                    "start": 39.75,
+                    "end": 40.0,
+                    "text": "\u00e9\u00a6\u0096"
+                },
+                {
+                    "pitch": 73,
+                    "start": 40.0,
+                    "end": 40.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 76,
+                    "start": 41.0,
+                    "end": 41.25,
+                    "text": "\u00e4\u00b8\u008d"
+                },
+                {
+                    "pitch": 76,
+                    "start": 41.25,
+                    "end": 41.75,
+                    "text": "\u00e4\u00b8\u00ba"
+                },
+                {
+                    "pitch": 76,
+                    "start": 41.75,
+                    "end": 42.25,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 78,
+                    "start": 42.25,
+                    "end": 43.0,
+                    "text": "\u00e8\u0080\u008c"
+                },
+                {
+                    "pitch": 78,
+                    "start": 43.0,
+                    "end": 43.5,
+                    "text": "\u00e4\u00bd\u009c"
+                },
+                {
+                    "pitch": 69,
+                    "start": 43.5,
+                    "end": 44.0,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 71,
+                    "start": 44.0,
+                    "end": 44.5,
+                    "text": "\u00e6\u00ad\u008c"
+                },
+                {
+                    "pitch": 74,
+                    "start": 45.0,
+                    "end": 45.5,
+                    "text": "#\u00e6\u0084\u009f"
+                },
+                {
+                    "pitch": 71,
+                    "start": 45.5,
+                    "end": 45.75,
+                    "text": "\u00e8\u00a7\u0089"
+                },
+                {
+                    "pitch": 74,
+                    "start": 45.75,
+                    "end": 46.5,
+                    "text": "\u00e4\u00b8\u008a"
+                },
+                {
+                    "pitch": 71,
+                    "start": 46.5,
+                    "end": 46.75,
+                    "text": "\u00e4\u00bb\u00bf"
+                },
+                {
+                    "pitch": 74,
+                    "start": 46.75,
+                    "end": 47.0,
+                    "text": "\u00e4\u00bd\u009b"
+                },
+                {
+                    "pitch": 76,
+                    "start": 47.5,
+                    "end": 47.75,
+                    "text": "\u00e7\u00aa\u0097"
+                },
+                {
+                    "pitch": 77,
+                    "start": 47.75,
+                    "end": 48.5,
+                    "text": "\u00e5\u00a4\u0096"
+                },
+                {
+                    "pitch": 76,
+                    "start": 48.5,
+                    "end": 49.0,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 74,
+                    "start": 49.0,
+                    "end": 49.75,
+                    "text": "\u00e5\u00a4\u009c"
+                },
+                {
+                    "pitch": 70,
+                    "start": 50.0,
+                    "end": 50.5,
+                    "text": "\u00e8\u0089\u00b2"
+                },
+                {
+                    "pitch": 69,
+                    "start": 50.5,
+                    "end": 51.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 67,
+                    "start": 51.5,
+                    "end": 51.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 69,
+                    "start": 51.75,
+                    "end": 52.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 69,
+                    "start": 53.0,
+                    "end": 53.5,
+                    "text": "#\u00e6\u009b\u00be"
+                },
+                {
+                    "pitch": 66,
+                    "start": 53.5,
+                    "end": 53.75,
+                    "text": "\u00e7\u00bb\u008f"
+                },
+                {
+                    "pitch": 69,
+                    "start": 53.75,
+                    "end": 54.25,
+                    "text": "\u00e6\u009c\u0089"
+                },
+                {
+                    "pitch": 69,
+                    "start": 55.0,
+                    "end": 55.25,
+                    "text": "\u00e9\u0082\u00a3"
+                },
+                {
+                    "pitch": 71,
+                    "start": 55.25,
+                    "end": 55.5,
+                    "text": "\u00e4\u00b8\u0080"
+                },
+                {
+                    "pitch": 69,
+                    "start": 55.5,
+                    "end": 55.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 71,
+                    "start": 55.75,
+                    "end": 56.0,
+                    "text": "\u00e5\u0088\u00bb"
+                },
+                {
+                    "pitch": 73,
+                    "start": 56.0,
+                    "end": 56.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 76,
+                    "start": 57.0,
+                    "end": 57.25,
+                    "text": "#\u00e5\u009b\u009e"
+                },
+                {
+                    "pitch": 76,
+                    "start": 57.25,
+                    "end": 58.0,
+                    "text": "\u00e5\u00a4\u00b4"
+                },
+                {
+                    "pitch": 76,
+                    "start": 58.0,
+                    "end": 58.5,
+                    "text": "\u00e7\u00ab\u009f"
+                },
+                {
+                    "pitch": 76,
+                    "start": 58.5,
+                    "end": 58.75,
+                    "text": "\u00e7\u0084\u00b6"
+                },
+                {
+                    "pitch": 78,
+                    "start": 58.75,
+                    "end": 59.25,
+                    "text": "\u00e8\u00ae\u00a4"
+                },
+                {
+                    "pitch": 81,
+                    "start": 59.25,
+                    "end": 59.75,
+                    "text": "\u00e4\u00b8\u008d"
+                },
+                {
+                    "pitch": 83,
+                    "start": 59.75,
+                    "end": 60.25,
+                    "text": "\u00e5\u00be\u0097"
+                },
+                {
+                    "pitch": 81,
+                    "start": 60.25,
+                    "end": 60.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 76,
+                    "start": 60.5,
+                    "end": 60.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 60.75,
+                    "end": 61.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 71,
+                    "start": 61.5,
+                    "end": 62.0,
+                    "text": "#\u00e9\u009c\u0080"
+                },
+                {
+                    "pitch": 74,
+                    "start": 62.0,
+                    "end": 63.0,
+                    "text": "\u00e8\u00a6\u0081"
+                },
+                {
+                    "pitch": 71,
+                    "start": 63.25,
+                    "end": 63.5,
+                    "text": "\u00e4\u00bb\u008e"
+                },
+                {
+                    "pitch": 74,
+                    "start": 63.5,
+                    "end": 63.75,
+                    "text": "\u00e8\u00ae\u00b0"
+                },
+                {
+                    "pitch": 76,
+                    "start": 63.75,
+                    "end": 64.0,
+                    "text": "\u00e5\u00bf\u0086"
+                },
+                {
+                    "pitch": 77,
+                    "start": 64.0,
+                    "end": 65.0,
+                    "text": "\u00e5\u0086\u008d"
+                },
+                {
+                    "pitch": 76,
+                    "start": 65.0,
+                    "end": 65.5,
+                    "text": "\u00e6\u0091\u00b8"
+                },
+                {
+                    "pitch": 74,
+                    "start": 65.5,
+                    "end": 66.5,
+                    "text": "\u00e7\u00b4\u00a2"
+                },
+                {
+                    "pitch": 76,
+                    "start": 66.5,
+                    "end": 67.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 69,
+                    "start": 67.5,
+                    "end": 67.75,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 71,
+                    "start": 67.75,
+                    "end": 68.25,
+                    "text": "\u00e4\u00ba\u00ba"
+                },
+                {
+                    "pitch": 74,
+                    "start": 68.25,
+                    "end": 68.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 69,
+                    "start": 69.75,
+                    "end": 70.0,
+                    "text": "#\u00e5\u0092\u008c"
+                },
+                {
+                    "pitch": 71,
+                    "start": 70.0,
+                    "end": 70.25,
+                    "text": "\u00e4\u00bb\u0096"
+                },
+                {
+                    "pitch": 74,
+                    "start": 70.25,
+                    "end": 70.75,
+                    "text": "\u00e4\u00bb\u00ac"
+                },
+                {
+                    "pitch": 71,
+                    "start": 70.75,
+                    "end": 71.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 71.0,
+                    "end": 71.5,
+                    "text": "\u00e5\u0085\u00b3"
+                },
+                {
+                    "pitch": 76,
+                    "start": 71.5,
+                    "end": 71.75,
+                    "text": "\u00e5\u00bf\u0083"
+                },
+                {
+                    "pitch": 73,
+                    "start": 71.75,
+                    "end": 72.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 73,
+                    "start": 72.0,
+                    "end": 74.0,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 69,
+                    "start": 75.5,
+                    "end": 75.75,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 71,
+                    "start": 75.75,
+                    "end": 76.25,
+                    "text": "\u00e5\u009c\u00b0"
+                },
+                {
+                    "pitch": 74,
+                    "start": 76.25,
+                    "end": 77.0,
+                    "text": "\u00e6\u0096\u00b9"
+                },
+                {
+                    "pitch": 69,
+                    "start": 77.75,
+                    "end": 78.0,
+                    "text": "#\u00e5\u0092\u008c"
+                },
+                {
+                    "pitch": 71,
+                    "start": 78.0,
+                    "end": 78.25,
+                    "text": "\u00e9\u0082\u00a3"
+                },
+                {
+                    "pitch": 74,
+                    "start": 78.25,
+                    "end": 78.75,
+                    "text": "\u00e4\u00ba\u009b"
+                },
+                {
+                    "pitch": 71,
+                    "start": 78.75,
+                    "end": 79.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 79.0,
+                    "end": 79.5,
+                    "text": "\u00e8\u00b5\u00b0"
+                },
+                {
+                    "pitch": 71,
+                    "start": 79.5,
+                    "end": 80.0,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 76,
+                    "start": 80.0,
+                    "end": 83.0,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 66,
+                    "start": 83.5,
+                    "end": 84.0,
+                    "text": "\u00e8\u00af\u00b7"
+                },
+                {
+                    "pitch": 69,
+                    "start": 84.0,
+                    "end": 84.75,
+                    "text": "\u00e7\u00ad\u0089"
+                },
+                {
+                    "pitch": 69,
+                    "start": 85.0,
+                    "end": 85.75,
+                    "text": "\u00e4\u00b8\u0080"
+                },
+                {
+                    "pitch": 69,
+                    "start": 86.0,
+                    "end": 87.0,
+                    "text": "\u00e7\u00ad\u0089"
+                },
+                {
+                    "pitch": 78,
+                    "start": 89.0,
+                    "end": 89.3125,
+                    "text": "#\u00e6\u00a2\u00a6"
+                },
+                {
+                    "pitch": 81,
+                    "start": 89.3125,
+                    "end": 89.75,
+                    "text": "\u00e4\u00b8\u00ba"
+                },
+                {
+                    "pitch": 78,
+                    "start": 89.75,
+                    "end": 90.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 90.0,
+                    "end": 90.3125,
+                    "text": "\u00e5\u008a\u00aa"
+                },
+                {
+                    "pitch": 81,
+                    "start": 90.3125,
+                    "end": 90.75,
+                    "text": "\u00e5\u008a\u009b"
+                },
+                {
+                    "pitch": 79,
+                    "start": 90.75,
+                    "end": 91.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 91.0,
+                    "end": 91.5,
+                    "text": "\u00e6\u00b5\u0087"
+                },
+                {
+                    "pitch": 78,
+                    "start": 91.5,
+                    "end": 91.75,
+                    "text": "\u00e4\u00ba\u0086"
+                },
+                {
+                    "pitch": 73,
+                    "start": 91.75,
+                    "end": 92.75,
+                    "text": "\u00e6\u00b0\u00b4"
+                },
+                {
+                    "pitch": 78,
+                    "start": 93.0,
+                    "end": 93.3125,
+                    "text": "\u00e7\u0088\u00b1"
+                },
+                {
+                    "pitch": 81,
+                    "start": 93.3125,
+                    "end": 93.75,
+                    "text": "\u00e5\u009c\u00a8"
+                },
+                {
+                    "pitch": 78,
+                    "start": 93.75,
+                    "end": 94.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 94.0,
+                    "end": 94.3125,
+                    "text": "\u00e8\u0083\u008c"
+                },
+                {
+                    "pitch": 81,
+                    "start": 94.3125,
+                    "end": 94.75,
+                    "text": "\u00e5\u0090\u008e"
+                },
+                {
+                    "pitch": 79,
+                    "start": 94.75,
+                    "end": 95.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 95.0,
+                    "end": 95.5,
+                    "text": "\u00e5\u00be\u0080"
+                },
+                {
+                    "pitch": 78,
+                    "start": 95.5,
+                    "end": 95.75,
+                    "text": "\u00e5\u0089\u008d"
+                },
+                {
+                    "pitch": 74,
+                    "start": 95.75,
+                    "end": 96.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 96.0,
+                    "end": 96.75,
+                    "text": "\u00e6\u008e\u00a8"
+                },
+                {
+                    "pitch": 78,
+                    "start": 97.0,
+                    "end": 97.3125,
+                    "text": "#\u00e5\u00bd\u0093"
+                },
+                {
+                    "pitch": 81,
+                    "start": 97.3125,
+                    "end": 97.75,
+                    "text": "\u00e6\u0088\u0091"
+                },
+                {
+                    "pitch": 78,
+                    "start": 97.75,
+                    "end": 98.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 98.0,
+                    "end": 98.3125,
+                    "text": "\u00e6\u008a\u00ac"
+                },
+                {
+                    "pitch": 81,
+                    "start": 98.3125,
+                    "end": 98.75,
+                    "text": "\u00e8\u00b5\u00b7"
+                },
+                {
+                    "pitch": 83,
+                    "start": 98.75,
+                    "end": 99.5,
+                    "text": "\u00e5\u00a4\u00b4"
+                },
+                {
+                    "pitch": 74,
+                    "start": 99.5,
+                    "end": 100.0,
+                    "text": "\u00e6\u0089\u008d"
+                },
+                {
+                    "pitch": 74,
+                    "start": 100.0,
+                    "end": 100.5,
+                    "text": "\u00e5\u008f\u0091"
+                },
+                {
+                    "pitch": 70,
+                    "start": 100.5,
+                    "end": 100.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 100.75,
+                    "end": 101.0,
+                    "text": "\u00e8\u00a7\u0089"
+                },
+                {
+                    "pitch": 74,
+                    "start": 101.75,
+                    "end": 102.0,
+                    "text": "#\u00e6\u0088\u0091"
+                },
+                {
+                    "pitch": 79,
+                    "start": 102.0,
+                    "end": 102.3125,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 78,
+                    "start": 102.3125,
+                    "end": 102.6875,
+                    "text": "\u00e4\u00b8\u008d"
+                },
+                {
+                    "pitch": 74,
+                    "start": 102.6875,
+                    "end": 103.0,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 79,
+                    "start": 103.0,
+                    "end": 103.3125,
+                    "text": "\u00e5\u00bf\u0098"
+                },
+                {
+                    "pitch": 78,
+                    "start": 103.3125,
+                    "end": 103.6875,
+                    "text": "\u00e4\u00ba\u0086"
+                },
+                {
+                    "pitch": 74,
+                    "start": 103.6875,
+                    "end": 104.75,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 78,
+                    "start": 105.0,
+                    "end": 105.3125,
+                    "text": "#\u00e7\u00b4\u00af"
+                },
+                {
+                    "pitch": 81,
+                    "start": 105.3125,
+                    "end": 105.75,
+                    "text": "\u00e5\u0088\u00b0"
+                },
+                {
+                    "pitch": 78,
+                    "start": 105.75,
+                    "end": 106.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 106.0,
+                    "end": 106.3125,
+                    "text": "\u00e6\u0095\u00b4"
+                },
+                {
+                    "pitch": 81,
+                    "start": 106.3125,
+                    "end": 106.75,
+                    "text": "\u00e5\u00a4\u009c"
+                },
+                {
+                    "pitch": 79,
+                    "start": 106.75,
+                    "end": 107.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 107.0,
+                    "end": 107.4375,
+                    "text": "\u00e4\u00b8\u008d"
+                },
+                {
+                    "pitch": 78,
+                    "start": 107.4375,
+                    "end": 108.0,
+                    "text": "\u00e8\u0083\u00bd"
+                },
+                {
+                    "pitch": 73,
+                    "start": 108.0,
+                    "end": 108.75,
+                    "text": "\u00e7\u009d\u00a1"
+                },
+                {
+                    "pitch": 78,
+                    "start": 109.0,
+                    "end": 109.3125,
+                    "text": "\u00e5\u00a4\u009c"
+                },
+                {
+                    "pitch": 81,
+                    "start": 109.3125,
+                    "end": 109.75,
+                    "text": "\u00e8\u0089\u00b2"
+                },
+                {
+                    "pitch": 78,
+                    "start": 109.75,
+                    "end": 110.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 110.0,
+                    "end": 110.3125,
+                    "text": "\u00e5\u0093\u00aa"
+                },
+                {
+                    "pitch": 81,
+                    "start": 110.3125,
+                    "end": 110.75,
+                    "text": "\u00e9\u0087\u008c"
+                },
+                {
+                    "pitch": 79,
+                    "start": 110.75,
+                    "end": 111.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 111.0,
+                    "end": 111.5,
+                    "text": "\u00e9\u0083\u00bd"
+                },
+                {
+                    "pitch": 78,
+                    "start": 111.5,
+                    "end": 111.75,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 74,
+                    "start": 111.75,
+                    "end": 112.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 112.0,
+                    "end": 112.75,
+                    "text": "\u00e7\u00be\u008e"
+                },
+                {
+                    "pitch": 78,
+                    "start": 113.0,
+                    "end": 113.3125,
+                    "text": "#\u00e4\u00b8\u0080"
+                },
+                {
+                    "pitch": 81,
+                    "start": 113.3125,
+                    "end": 113.75,
+                    "text": "\u00e5\u00ae\u009a"
+                },
+                {
+                    "pitch": 83,
+                    "start": 113.75,
+                    "end": 114.25,
+                    "text": "\u00e6\u009c\u0089"
+                },
+                {
+                    "pitch": 74,
+                    "start": 114.25,
+                    "end": 114.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 114.5,
+                    "end": 115.0,
+                    "text": "\u00e4\u00b8\u00aa"
+                },
+                {
+                    "pitch": 76,
+                    "start": 115.0,
+                    "end": 115.5,
+                    "text": "\u00e4\u00ba\u00ba"
+                },
+                {
+                    "pitch": 78,
+                    "start": 115.5,
+                    "end": 116.0,
+                    "text": "\u00e5\u00a5\u00b9"
+                },
+                {
+                    "pitch": 79,
+                    "start": 116.0,
+                    "end": 116.4375,
+                    "text": "\u00e8\u00ba\u00b2"
+                },
+                {
+                    "pitch": 78,
+                    "start": 116.4375,
+                    "end": 117.0,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 79,
+                    "start": 117.0,
+                    "end": 117.25,
+                    "text": "\u00e9\u0081\u00bf"
+                },
+                {
+                    "pitch": 78,
+                    "start": 117.25,
+                    "end": 117.75,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 79,
+                    "start": 117.75,
+                    "end": 118.0,
+                    "text": "\u00e9\u0097\u00aa"
+                },
+                {
+                    "pitch": 78,
+                    "start": 118.0,
+                    "end": 118.25,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 79,
+                    "start": 118.25,
+                    "end": 118.5,
+                    "text": "\u00e7\u009e\u0092"
+                },
+                {
+                    "pitch": 78,
+                    "start": 118.5,
+                    "end": 118.75,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 74,
+                    "start": 118.75,
+                    "end": 119.0,
+                    "text": "#\u00e5\u00a5\u00b9"
+                },
+                {
+                    "pitch": 76,
+                    "start": 119.0,
+                    "end": 120.0,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 74,
+                    "start": 121.0,
+                    "end": 123.5,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 73,
+                    "start": 123.5,
+                    "end": 125.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 73,
+                    "start": 126.5,
+                    "end": 127.0,
+                    "text": "#\u00e5\u00a5\u00b9"
+                },
+                {
+                    "pitch": 76,
+                    "start": 127.0,
+                    "end": 129.0,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 74,
+                    "start": 129.0,
+                    "end": 131.5,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 71,
+                    "start": 131.5,
+                    "end": 132.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 135.0,
+                    "end": 135.25,
+                    "text": "#\u00e5\u0096\u0094"
+                },
+                {
+                    "pitch": 78,
+                    "start": 135.25,
+                    "end": 135.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 135.75,
+                    "end": 136.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 69,
+                    "start": 137.0,
+                    "end": 137.5,
+                    "text": "#\u00e5\u008e\u009f"
+                },
+                {
+                    "pitch": 66,
+                    "start": 137.5,
+                    "end": 138.0,
+                    "text": "\u00e8\u00b0\u0085"
+                },
+                {
+                    "pitch": 69,
+                    "start": 138.0,
+                    "end": 138.25,
+                    "text": "\u00e6\u0088\u0091"
+                },
+                {
+                    "pitch": 69,
+                    "start": 139.0,
+                    "end": 139.25,
+                    "text": "\u00e8\u00bf\u0099"
+                },
+                {
+                    "pitch": 71,
+                    "start": 139.25,
+                    "end": 139.5,
+                    "text": "\u00e4\u00b8\u0080"
+                },
+                {
+                    "pitch": 69,
+                    "start": 139.5,
+                    "end": 139.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 71,
+                    "start": 139.75,
+                    "end": 140.0,
+                    "text": "\u00e9\u00a6\u0096"
+                },
+                {
+                    "pitch": 73,
+                    "start": 140.0,
+                    "end": 140.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 76,
+                    "start": 141.0,
+                    "end": 141.25,
+                    "text": "\u00e4\u00b8\u008d"
+                },
+                {
+                    "pitch": 76,
+                    "start": 141.25,
+                    "end": 142.0,
+                    "text": "\u00e4\u00b8\u00ba"
+                },
+                {
+                    "pitch": 76,
+                    "start": 142.0,
+                    "end": 142.5,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 78,
+                    "start": 142.5,
+                    "end": 143.0,
+                    "text": "\u00e8\u0080\u008c"
+                },
+                {
+                    "pitch": 78,
+                    "start": 143.0,
+                    "end": 143.5,
+                    "text": "\u00e4\u00bd\u009c"
+                },
+                {
+                    "pitch": 69,
+                    "start": 143.5,
+                    "end": 144.0,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 71,
+                    "start": 144.0,
+                    "end": 144.5,
+                    "text": "\u00e6\u00ad\u008c"
+                },
+                {
+                    "pitch": 74,
+                    "start": 145.0,
+                    "end": 145.5,
+                    "text": "#\u00e6\u0084\u009f"
+                },
+                {
+                    "pitch": 71,
+                    "start": 145.5,
+                    "end": 145.75,
+                    "text": "\u00e8\u00a7\u0089"
+                },
+                {
+                    "pitch": 74,
+                    "start": 145.75,
+                    "end": 146.5,
+                    "text": "\u00e4\u00b8\u008a"
+                },
+                {
+                    "pitch": 71,
+                    "start": 146.5,
+                    "end": 146.75,
+                    "text": "\u00e4\u00bb\u00bf"
+                },
+                {
+                    "pitch": 74,
+                    "start": 146.75,
+                    "end": 147.0,
+                    "text": "\u00e4\u00bd\u009b"
+                },
+                {
+                    "pitch": 76,
+                    "start": 147.5,
+                    "end": 148.0,
+                    "text": "\u00e7\u00aa\u0097"
+                },
+                {
+                    "pitch": 77,
+                    "start": 148.0,
+                    "end": 148.75,
+                    "text": "\u00e5\u00a4\u0096"
+                },
+                {
+                    "pitch": 76,
+                    "start": 148.75,
+                    "end": 149.0,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 74,
+                    "start": 149.0,
+                    "end": 149.75,
+                    "text": "\u00e5\u00a4\u009c"
+                },
+                {
+                    "pitch": 70,
+                    "start": 150.0,
+                    "end": 150.75,
+                    "text": "\u00e8\u0089\u00b2"
+                },
+                {
+                    "pitch": 69,
+                    "start": 150.75,
+                    "end": 151.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 67,
+                    "start": 151.5,
+                    "end": 151.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 69,
+                    "start": 151.75,
+                    "end": 152.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 69,
+                    "start": 153.0,
+                    "end": 153.5,
+                    "text": "#\u00e6\u009b\u00be"
+                },
+                {
+                    "pitch": 66,
+                    "start": 153.5,
+                    "end": 153.75,
+                    "text": "\u00e7\u00bb\u008f"
+                },
+                {
+                    "pitch": 69,
+                    "start": 153.75,
+                    "end": 154.25,
+                    "text": "\u00e6\u009c\u0089"
+                },
+                {
+                    "pitch": 69,
+                    "start": 155.0,
+                    "end": 155.25,
+                    "text": "\u00e9\u0082\u00a3"
+                },
+                {
+                    "pitch": 71,
+                    "start": 155.25,
+                    "end": 155.5,
+                    "text": "\u00e4\u00b8\u0080"
+                },
+                {
+                    "pitch": 69,
+                    "start": 155.5,
+                    "end": 155.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 71,
+                    "start": 155.75,
+                    "end": 156.0,
+                    "text": "\u00e5\u0088\u00bb"
+                },
+                {
+                    "pitch": 73,
+                    "start": 156.0,
+                    "end": 156.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 76,
+                    "start": 157.0,
+                    "end": 157.25,
+                    "text": "#\u00e5\u009b\u009e"
+                },
+                {
+                    "pitch": 76,
+                    "start": 157.25,
+                    "end": 158.0,
+                    "text": "\u00e5\u00a4\u00b4"
+                },
+                {
+                    "pitch": 76,
+                    "start": 158.0,
+                    "end": 158.25,
+                    "text": "\u00e7\u00ab\u009f"
+                },
+                {
+                    "pitch": 76,
+                    "start": 158.25,
+                    "end": 158.75,
+                    "text": "\u00e7\u0084\u00b6"
+                },
+                {
+                    "pitch": 78,
+                    "start": 158.75,
+                    "end": 159.25,
+                    "text": "\u00e8\u00ae\u00a4"
+                },
+                {
+                    "pitch": 81,
+                    "start": 159.25,
+                    "end": 159.75,
+                    "text": "\u00e4\u00b8\u008d"
+                },
+                {
+                    "pitch": 83,
+                    "start": 159.75,
+                    "end": 161.0,
+                    "text": "\u00e5\u00be\u0097"
+                },
+                {
+                    "pitch": 71,
+                    "start": 161.5,
+                    "end": 162.0,
+                    "text": "#\u00e9\u009c\u0080"
+                },
+                {
+                    "pitch": 74,
+                    "start": 162.0,
+                    "end": 163.0,
+                    "text": "\u00e8\u00a6\u0081"
+                },
+                {
+                    "pitch": 71,
+                    "start": 163.25,
+                    "end": 163.5,
+                    "text": "#\u00e4\u00bb\u008e"
+                },
+                {
+                    "pitch": 74,
+                    "start": 163.5,
+                    "end": 163.75,
+                    "text": "\u00e8\u00ae\u00b0"
+                },
+                {
+                    "pitch": 76,
+                    "start": 163.75,
+                    "end": 164.0,
+                    "text": "\u00e5\u00bf\u0086"
+                },
+                {
+                    "pitch": 77,
+                    "start": 164.0,
+                    "end": 165.0,
+                    "text": "\u00e5\u0086\u008d"
+                },
+                {
+                    "pitch": 76,
+                    "start": 165.0,
+                    "end": 165.5,
+                    "text": "\u00e6\u0091\u00b8"
+                },
+                {
+                    "pitch": 74,
+                    "start": 165.5,
+                    "end": 166.5,
+                    "text": "\u00e7\u00b4\u00a2"
+                },
+                {
+                    "pitch": 76,
+                    "start": 166.5,
+                    "end": 167.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 69,
+                    "start": 167.5,
+                    "end": 167.75,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 71,
+                    "start": 167.75,
+                    "end": 168.5,
+                    "text": "\u00e4\u00ba\u00ba"
+                },
+                {
+                    "pitch": 74,
+                    "start": 168.5,
+                    "end": 169.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 69,
+                    "start": 169.75,
+                    "end": 170.0,
+                    "text": "#\u00e5\u0092\u008c"
+                },
+                {
+                    "pitch": 71,
+                    "start": 170.0,
+                    "end": 170.25,
+                    "text": "\u00e4\u00bb\u0096"
+                },
+                {
+                    "pitch": 74,
+                    "start": 170.25,
+                    "end": 170.75,
+                    "text": "\u00e4\u00bb\u00ac"
+                },
+                {
+                    "pitch": 71,
+                    "start": 170.75,
+                    "end": 171.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 171.0,
+                    "end": 171.25,
+                    "text": "\u00e5\u0085\u00b3"
+                },
+                {
+                    "pitch": 76,
+                    "start": 171.25,
+                    "end": 171.75,
+                    "text": "\u00e5\u00bf\u0083"
+                },
+                {
+                    "pitch": 73,
+                    "start": 171.75,
+                    "end": 172.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 73,
+                    "start": 172.0,
+                    "end": 173.5,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 71,
+                    "start": 173.5,
+                    "end": 173.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 69,
+                    "start": 173.75,
+                    "end": 174.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 69,
+                    "start": 175.5,
+                    "end": 175.75,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 71,
+                    "start": 175.75,
+                    "end": 176.25,
+                    "text": "\u00e5\u009c\u00b0"
+                },
+                {
+                    "pitch": 74,
+                    "start": 176.25,
+                    "end": 177.0,
+                    "text": "\u00e6\u0096\u00b9"
+                },
+                {
+                    "pitch": 69,
+                    "start": 177.75,
+                    "end": 178.0,
+                    "text": "#\u00e5\u0092\u008c"
+                },
+                {
+                    "pitch": 74,
+                    "start": 178.0,
+                    "end": 178.25,
+                    "text": "\u00e9\u0082\u00a3"
+                },
+                {
+                    "pitch": 71,
+                    "start": 178.25,
+                    "end": 178.75,
+                    "text": "\u00e4\u00ba\u009b"
+                },
+                {
+                    "pitch": 74,
+                    "start": 179.0,
+                    "end": 179.5,
+                    "text": "\u00e8\u00b5\u00b0"
+                },
+                {
+                    "pitch": 76,
+                    "start": 179.5,
+                    "end": 180.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 81,
+                    "start": 180.0,
+                    "end": 183.25,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 78,
+                    "start": 183.25,
+                    "end": 183.75,
+                    "text": "\u00e7\u009a\u0084"
+                },
+                {
+                    "pitch": 76,
+                    "start": 183.75,
+                    "end": 184.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 184.0,
+                    "end": 184.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 185.0,
+                    "end": 185.3125,
+                    "text": "#\u00e6\u00a2\u00a6"
+                },
+                {
+                    "pitch": 81,
+                    "start": 185.3125,
+                    "end": 185.75,
+                    "text": "\u00e4\u00b8\u00ba"
+                },
+                {
+                    "pitch": 78,
+                    "start": 185.75,
+                    "end": 186.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 186.0,
+                    "end": 186.3125,
+                    "text": "\u00e5\u008a\u00aa"
+                },
+                {
+                    "pitch": 81,
+                    "start": 186.3125,
+                    "end": 186.75,
+                    "text": "\u00e5\u008a\u009b"
+                },
+                {
+                    "pitch": 79,
+                    "start": 186.75,
+                    "end": 187.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 187.0,
+                    "end": 187.5,
+                    "text": "\u00e6\u00b5\u0087"
+                },
+                {
+                    "pitch": 78,
+                    "start": 187.5,
+                    "end": 187.75,
+                    "text": "\u00e4\u00ba\u0086"
+                },
+                {
+                    "pitch": 73,
+                    "start": 187.75,
+                    "end": 188.75,
+                    "text": "\u00e6\u00b0\u00b4"
+                },
+                {
+                    "pitch": 78,
+                    "start": 189.0,
+                    "end": 189.3125,
+                    "text": "\u00e7\u0088\u00b1"
+                },
+                {
+                    "pitch": 81,
+                    "start": 189.3125,
+                    "end": 189.75,
+                    "text": "\u00e5\u009c\u00a8"
+                },
+                {
+                    "pitch": 78,
+                    "start": 189.75,
+                    "end": 190.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 190.0,
+                    "end": 190.3125,
+                    "text": "\u00e8\u0083\u008c"
+                },
+                {
+                    "pitch": 81,
+                    "start": 190.3125,
+                    "end": 190.75,
+                    "text": "\u00e5\u0090\u008e"
+                },
+                {
+                    "pitch": 79,
+                    "start": 190.75,
+                    "end": 191.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 191.0,
+                    "end": 191.5,
+                    "text": "\u00e5\u00be\u0080"
+                },
+                {
+                    "pitch": 78,
+                    "start": 191.5,
+                    "end": 191.75,
+                    "text": "\u00e5\u0089\u008d"
+                },
+                {
+                    "pitch": 74,
+                    "start": 191.75,
+                    "end": 192.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 192.0,
+                    "end": 192.75,
+                    "text": "\u00e6\u008e\u00a8"
+                },
+                {
+                    "pitch": 78,
+                    "start": 193.0,
+                    "end": 193.3125,
+                    "text": "#\u00e5\u00bd\u0093"
+                },
+                {
+                    "pitch": 81,
+                    "start": 193.3125,
+                    "end": 193.75,
+                    "text": "\u00e6\u0088\u0091"
+                },
+                {
+                    "pitch": 78,
+                    "start": 193.75,
+                    "end": 194.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 194.0,
+                    "end": 194.3125,
+                    "text": "\u00e6\u008a\u00ac"
+                },
+                {
+                    "pitch": 81,
+                    "start": 194.3125,
+                    "end": 194.75,
+                    "text": "\u00e8\u00b5\u00b7"
+                },
+                {
+                    "pitch": 83,
+                    "start": 194.75,
+                    "end": 195.5,
+                    "text": "\u00e5\u00a4\u00b4"
+                },
+                {
+                    "pitch": 74,
+                    "start": 195.5,
+                    "end": 196.0,
+                    "text": "\u00e6\u0089\u008d"
+                },
+                {
+                    "pitch": 74,
+                    "start": 196.0,
+                    "end": 196.5,
+                    "text": "\u00e5\u008f\u0091"
+                },
+                {
+                    "pitch": 70,
+                    "start": 196.5,
+                    "end": 196.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 196.75,
+                    "end": 197.25,
+                    "text": "\u00e8\u00a7\u0089"
+                },
+                {
+                    "pitch": 74,
+                    "start": 197.75,
+                    "end": 198.0,
+                    "text": "#\u00e6\u0088\u0091"
+                },
+                {
+                    "pitch": 79,
+                    "start": 198.0,
+                    "end": 198.3125,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 78,
+                    "start": 198.3125,
+                    "end": 198.6875,
+                    "text": "\u00e4\u00b8\u008d"
+                },
+                {
+                    "pitch": 74,
+                    "start": 198.6875,
+                    "end": 199.0,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 79,
+                    "start": 199.0,
+                    "end": 199.3125,
+                    "text": "\u00e5\u00bf\u0098"
+                },
+                {
+                    "pitch": 78,
+                    "start": 199.3125,
+                    "end": 199.6875,
+                    "text": "\u00e4\u00ba\u0086"
+                },
+                {
+                    "pitch": 76,
+                    "start": 199.6875,
+                    "end": 200.3125,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 78,
+                    "start": 201.0,
+                    "end": 201.3125,
+                    "text": "#\u00e7\u00b4\u00af"
+                },
+                {
+                    "pitch": 81,
+                    "start": 201.3125,
+                    "end": 201.75,
+                    "text": "\u00e5\u0088\u00b0"
+                },
+                {
+                    "pitch": 78,
+                    "start": 201.75,
+                    "end": 202.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 202.0,
+                    "end": 202.3125,
+                    "text": "\u00e6\u0095\u00b4"
+                },
+                {
+                    "pitch": 81,
+                    "start": 202.3125,
+                    "end": 202.75,
+                    "text": "\u00e5\u00a4\u009c"
+                },
+                {
+                    "pitch": 79,
+                    "start": 202.75,
+                    "end": 203.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 203.0,
+                    "end": 203.4375,
+                    "text": "\u00e4\u00b8\u008d"
+                },
+                {
+                    "pitch": 78,
+                    "start": 203.4375,
+                    "end": 204.0,
+                    "text": "\u00e8\u0083\u00bd"
+                },
+                {
+                    "pitch": 73,
+                    "start": 204.0,
+                    "end": 204.75,
+                    "text": "\u00e7\u009d\u00a1"
+                },
+                {
+                    "pitch": 78,
+                    "start": 205.0,
+                    "end": 205.3125,
+                    "text": "\u00e5\u00a4\u009c"
+                },
+                {
+                    "pitch": 81,
+                    "start": 205.3125,
+                    "end": 205.75,
+                    "text": "\u00e8\u0089\u00b2"
+                },
+                {
+                    "pitch": 78,
+                    "start": 205.75,
+                    "end": 206.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 206.0,
+                    "end": 206.3125,
+                    "text": "\u00e5\u0093\u00aa"
+                },
+                {
+                    "pitch": 81,
+                    "start": 206.3125,
+                    "end": 206.75,
+                    "text": "\u00e9\u0087\u008c"
+                },
+                {
+                    "pitch": 79,
+                    "start": 206.75,
+                    "end": 207.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 207.0,
+                    "end": 207.5,
+                    "text": "\u00e9\u0083\u00bd"
+                },
+                {
+                    "pitch": 78,
+                    "start": 207.5,
+                    "end": 207.75,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 74,
+                    "start": 207.75,
+                    "end": 208.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 208.0,
+                    "end": 208.75,
+                    "text": "\u00e7\u00be\u008e"
+                },
+                {
+                    "pitch": 78,
+                    "start": 209.0,
+                    "end": 209.3125,
+                    "text": "#\u00e4\u00b8\u0080"
+                },
+                {
+                    "pitch": 81,
+                    "start": 209.3125,
+                    "end": 209.75,
+                    "text": "\u00e5\u00ae\u009a"
+                },
+                {
+                    "pitch": 83,
+                    "start": 209.75,
+                    "end": 210.25,
+                    "text": "\u00e6\u009c\u0089"
+                },
+                {
+                    "pitch": 74,
+                    "start": 210.25,
+                    "end": 210.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 210.5,
+                    "end": 211.0,
+                    "text": "\u00e4\u00b8\u00aa"
+                },
+                {
+                    "pitch": 76,
+                    "start": 211.0,
+                    "end": 211.3125,
+                    "text": "\u00e4\u00ba\u00ba"
+                },
+                {
+                    "pitch": 78,
+                    "start": 211.3125,
+                    "end": 211.75,
+                    "text": "\u00e5\u00a5\u00b9"
+                },
+                {
+                    "pitch": 79,
+                    "start": 212.0,
+                    "end": 212.4375,
+                    "text": "\u00e8\u00ba\u00b2"
+                },
+                {
+                    "pitch": 78,
+                    "start": 212.4375,
+                    "end": 213.0,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 79,
+                    "start": 213.0,
+                    "end": 213.25,
+                    "text": "\u00e9\u0081\u00bf"
+                },
+                {
+                    "pitch": 78,
+                    "start": 213.25,
+                    "end": 213.75,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 79,
+                    "start": 213.75,
+                    "end": 214.0,
+                    "text": "\u00e9\u0097\u00aa"
+                },
+                {
+                    "pitch": 78,
+                    "start": 214.0,
+                    "end": 214.3125,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 79,
+                    "start": 214.3125,
+                    "end": 214.6875,
+                    "text": "\u00e7\u009e\u0092"
+                },
+                {
+                    "pitch": 78,
+                    "start": 214.6875,
+                    "end": 214.9375,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 74,
+                    "start": 214.9375,
+                    "end": 215.25,
+                    "text": "#\u00e5\u00a5\u00b9"
+                },
+                {
+                    "pitch": 76,
+                    "start": 215.25,
+                    "end": 216.5,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 74,
+                    "start": 216.5,
+                    "end": 216.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 216.75,
+                    "end": 219.5,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 73,
+                    "start": 219.5,
+                    "end": 221.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 222.5,
+                    "end": 223.0,
+                    "text": "\u00e5\u00a5\u00b9"
+                },
+                {
+                    "pitch": 76,
+                    "start": 223.0,
+                    "end": 224.5,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 74,
+                    "start": 224.5,
+                    "end": 227.5,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 74,
+                    "start": 227.5,
+                    "end": 228.0,
+                    "text": "\u00e5\u0094\u0094"
+                },
+                {
+                    "pitch": 81,
+                    "start": 228.0,
+                    "end": 231.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 71,
+                    "start": 232.5,
+                    "end": 233.0,
+                    "text": "#\u00e4\u00b9\u009f"
+                },
+                {
+                    "pitch": 74,
+                    "start": 233.0,
+                    "end": 233.5,
+                    "text": "\u00e8\u00ae\u00b8"
+                },
+                {
+                    "pitch": 76,
+                    "start": 233.5,
+                    "end": 234.0,
+                    "text": "\u00e5\u009c\u00a8"
+                },
+                {
+                    "pitch": 78,
+                    "start": 234.0,
+                    "end": 234.3125,
+                    "text": "\u00e7\u009c\u009f"
+                },
+                {
+                    "pitch": 76,
+                    "start": 234.3125,
+                    "end": 234.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 234.5,
+                    "end": 234.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 234.75,
+                    "end": 235.0,
+                    "text": "\u00e5\u00ae\u009e"
+                },
+                {
+                    "pitch": 74,
+                    "start": 235.0,
+                    "end": 235.3125,
+                    "text": "\u00e9\u009d\u00a2"
+                },
+                {
+                    "pitch": 76,
+                    "start": 235.3125,
+                    "end": 235.6875,
+                    "text": "\u00e5\u00af\u00b9"
+                },
+                {
+                    "pitch": 78,
+                    "start": 235.6875,
+                    "end": 236.1875,
+                    "text": "\u00e8\u0087\u00aa"
+                },
+                {
+                    "pitch": 76,
+                    "start": 236.1875,
+                    "end": 236.3125,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 236.3125,
+                    "end": 236.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 236.5,
+                    "end": 236.9375,
+                    "text": "\u00e5\u00b7\u00b1"
+                },
+                {
+                    "pitch": 74,
+                    "start": 237.0,
+                    "end": 237.5,
+                    "text": "\u00e6\u0089\u008d"
+                },
+                {
+                    "pitch": 76,
+                    "start": 237.5,
+                    "end": 238.0,
+                    "text": "\u00e4\u00b8\u008d"
+                },
+                {
+                    "pitch": 78,
+                    "start": 238.0,
+                    "end": 238.5,
+                    "text": "\u00e9\u00a1\u00be"
+                },
+                {
+                    "pitch": 81,
+                    "start": 238.5,
+                    "end": 238.75,
+                    "text": "\u00e4\u00b8\u0080"
+                },
+                {
+                    "pitch": 81,
+                    "start": 238.75,
+                    "end": 240.0,
+                    "text": "\u00e5\u0088\u0087"
+                },
+                {
+                    "pitch": 74,
+                    "start": 241.0,
+                    "end": 241.5,
+                    "text": "#\u00e5\u008e\u00bb"
+                },
+                {
+                    "pitch": 76,
+                    "start": 241.5,
+                    "end": 242.0,
+                    "text": "\u00e6\u008e\u00a2"
+                },
+                {
+                    "pitch": 77,
+                    "start": 242.0,
+                    "end": 242.3125,
+                    "text": "\u00e7\u00a9\u00b6"
+                },
+                {
+                    "pitch": 76,
+                    "start": 242.3125,
+                    "end": 242.4375,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 242.4375,
+                    "end": 242.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 242.5,
+                    "end": 243.0,
+                    "text": "\u00e5\u00bd\u0093"
+                },
+                {
+                    "pitch": 74,
+                    "start": 243.0,
+                    "end": 243.5,
+                    "text": "\u00e5\u0088\u009d"
+                },
+                {
+                    "pitch": 69,
+                    "start": 243.5,
+                    "end": 244.0,
+                    "text": "\u00e6\u0088\u0091"
+                },
+                {
+                    "pitch": 81,
+                    "start": 244.0,
+                    "end": 244.75,
+                    "text": "\u00e5\u00ae\u00b3"
+                },
+                {
+                    "pitch": 82,
+                    "start": 244.75,
+                    "end": 245.5,
+                    "text": "\u00e6\u0080\u0095"
+                },
+                {
+                    "pitch": 84,
+                    "start": 245.5,
+                    "end": 246.0,
+                    "text": "\u00e9\u009d\u00a2"
+                },
+                {
+                    "pitch": 79,
+                    "start": 246.0,
+                    "end": 246.5,
+                    "text": "\u00e5\u00af\u00b9"
+                },
+                {
+                    "pitch": 81,
+                    "start": 246.5,
+                    "end": 246.8125,
+                    "text": ""
+                },
+                {
+                    "pitch": 82,
+                    "start": 246.8125,
+                    "end": 246.9375,
+                    "text": ""
+                },
+                {
+                    "pitch": 81,
+                    "start": 246.9375,
+                    "end": 247.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 247.0,
+                    "end": 247.1875,
+                    "text": ""
+                },
+                {
+                    "pitch": 81,
+                    "start": 247.1875,
+                    "end": 248.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 251.0,
+                    "end": 251.3125,
+                    "text": "#\u00e6\u00a2\u00a6"
+                },
+                {
+                    "pitch": 81,
+                    "start": 251.3125,
+                    "end": 251.75,
+                    "text": "\u00e4\u00b8\u00ba"
+                },
+                {
+                    "pitch": 78,
+                    "start": 251.75,
+                    "end": 252.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 252.0,
+                    "end": 252.3125,
+                    "text": "\u00e5\u008a\u00aa"
+                },
+                {
+                    "pitch": 78,
+                    "start": 252.3125,
+                    "end": 252.75,
+                    "text": "\u00e5\u008a\u009b"
+                },
+                {
+                    "pitch": 76,
+                    "start": 252.75,
+                    "end": 253.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 76,
+                    "start": 253.0,
+                    "end": 253.5,
+                    "text": "\u00e6\u00b5\u0087"
+                },
+                {
+                    "pitch": 74,
+                    "start": 253.5,
+                    "end": 253.75,
+                    "text": "\u00e4\u00ba\u0086"
+                },
+                {
+                    "pitch": 73,
+                    "start": 253.75,
+                    "end": 254.75,
+                    "text": "\u00e6\u00b0\u00b4"
+                },
+                {
+                    "pitch": 78,
+                    "start": 255.0,
+                    "end": 255.3125,
+                    "text": "\u00e7\u0088\u00b1"
+                },
+                {
+                    "pitch": 78,
+                    "start": 255.3125,
+                    "end": 255.75,
+                    "text": "\u00e5\u009c\u00a8"
+                },
+                {
+                    "pitch": 74,
+                    "start": 255.75,
+                    "end": 256.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 256.0,
+                    "end": 256.3125,
+                    "text": "\u00e8\u0083\u008c"
+                },
+                {
+                    "pitch": 78,
+                    "start": 256.3125,
+                    "end": 256.75,
+                    "text": "\u00e5\u0090\u008e"
+                },
+                {
+                    "pitch": 76,
+                    "start": 256.75,
+                    "end": 257.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 76,
+                    "start": 257.0,
+                    "end": 257.5,
+                    "text": "\u00e5\u00be\u0080"
+                },
+                {
+                    "pitch": 74,
+                    "start": 257.5,
+                    "end": 257.75,
+                    "text": "\u00e5\u0089\u008d"
+                },
+                {
+                    "pitch": 71,
+                    "start": 257.75,
+                    "end": 258.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 71,
+                    "start": 258.0,
+                    "end": 258.75,
+                    "text": "\u00e6\u008e\u00a8"
+                },
+                {
+                    "pitch": 78,
+                    "start": 259.0,
+                    "end": 259.3125,
+                    "text": "#\u00e5\u00bd\u0093"
+                },
+                {
+                    "pitch": 81,
+                    "start": 259.3125,
+                    "end": 259.75,
+                    "text": "\u00e6\u0088\u0091"
+                },
+                {
+                    "pitch": 78,
+                    "start": 259.75,
+                    "end": 260.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 260.0,
+                    "end": 260.3125,
+                    "text": "\u00e6\u008a\u00ac"
+                },
+                {
+                    "pitch": 81,
+                    "start": 260.3125,
+                    "end": 260.75,
+                    "text": "\u00e8\u00b5\u00b7"
+                },
+                {
+                    "pitch": 83,
+                    "start": 260.75,
+                    "end": 261.5,
+                    "text": "\u00e5\u00a4\u00b4"
+                },
+                {
+                    "pitch": 74,
+                    "start": 261.5,
+                    "end": 262.0,
+                    "text": "\u00e6\u0089\u008d"
+                },
+                {
+                    "pitch": 74,
+                    "start": 262.0,
+                    "end": 262.5,
+                    "text": "\u00e5\u008f\u0091"
+                },
+                {
+                    "pitch": 70,
+                    "start": 262.5,
+                    "end": 262.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 262.75,
+                    "end": 263.25,
+                    "text": "\u00e8\u00a7\u0089"
+                },
+                {
+                    "pitch": 74,
+                    "start": 263.75,
+                    "end": 264.0,
+                    "text": "#\u00e6\u0088\u0091"
+                },
+                {
+                    "pitch": 79,
+                    "start": 264.0,
+                    "end": 264.3125,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 78,
+                    "start": 264.3125,
+                    "end": 264.6875,
+                    "text": "\u00e4\u00b8\u008d"
+                },
+                {
+                    "pitch": 74,
+                    "start": 264.6875,
+                    "end": 265.0,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 79,
+                    "start": 265.0,
+                    "end": 265.3125,
+                    "text": "\u00e5\u00bf\u0098"
+                },
+                {
+                    "pitch": 78,
+                    "start": 265.3125,
+                    "end": 265.6875,
+                    "text": "\u00e4\u00ba\u0086"
+                },
+                {
+                    "pitch": 74,
+                    "start": 265.6875,
+                    "end": 266.3125,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 78,
+                    "start": 267.0,
+                    "end": 267.3125,
+                    "text": "#\u00e7\u00b4\u00af"
+                },
+                {
+                    "pitch": 81,
+                    "start": 267.3125,
+                    "end": 267.75,
+                    "text": "\u00e5\u0088\u00b0"
+                },
+                {
+                    "pitch": 78,
+                    "start": 267.75,
+                    "end": 268.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 268.0,
+                    "end": 268.3125,
+                    "text": "\u00e6\u0095\u00b4"
+                },
+                {
+                    "pitch": 81,
+                    "start": 268.3125,
+                    "end": 268.75,
+                    "text": "\u00e5\u00a4\u009c"
+                },
+                {
+                    "pitch": 79,
+                    "start": 268.75,
+                    "end": 269.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 269.0,
+                    "end": 269.4375,
+                    "text": "\u00e4\u00b8\u008d"
+                },
+                {
+                    "pitch": 78,
+                    "start": 269.4375,
+                    "end": 270.0,
+                    "text": "\u00e8\u0083\u00bd"
+                },
+                {
+                    "pitch": 73,
+                    "start": 270.0,
+                    "end": 270.75,
+                    "text": "\u00e7\u009d\u00a1"
+                },
+                {
+                    "pitch": 78,
+                    "start": 271.0,
+                    "end": 271.3125,
+                    "text": "\u00e5\u00a4\u009c"
+                },
+                {
+                    "pitch": 81,
+                    "start": 271.3125,
+                    "end": 271.75,
+                    "text": "\u00e8\u0089\u00b2"
+                },
+                {
+                    "pitch": 78,
+                    "start": 271.75,
+                    "end": 272.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 78,
+                    "start": 272.0,
+                    "end": 272.3125,
+                    "text": "\u00e5\u0093\u00aa"
+                },
+                {
+                    "pitch": 81,
+                    "start": 272.3125,
+                    "end": 272.75,
+                    "text": "\u00e9\u0087\u008c"
+                },
+                {
+                    "pitch": 79,
+                    "start": 272.75,
+                    "end": 273.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 273.0,
+                    "end": 273.5,
+                    "text": "\u00e9\u0083\u00bd"
+                },
+                {
+                    "pitch": 78,
+                    "start": 273.5,
+                    "end": 273.75,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 74,
+                    "start": 273.75,
+                    "end": 274.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 274.0,
+                    "end": 274.75,
+                    "text": "\u00e7\u00be\u008e"
+                },
+                {
+                    "pitch": 78,
+                    "start": 275.0,
+                    "end": 275.3125,
+                    "text": "#\u00e4\u00b8\u0080"
+                },
+                {
+                    "pitch": 81,
+                    "start": 275.3125,
+                    "end": 275.75,
+                    "text": "\u00e5\u00ae\u009a"
+                },
+                {
+                    "pitch": 83,
+                    "start": 275.75,
+                    "end": 276.0,
+                    "text": "\u00e6\u009c\u0089"
+                },
+                {
+                    "pitch": 74,
+                    "start": 276.0,
+                    "end": 276.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 276.5,
+                    "end": 277.0,
+                    "text": "\u00e4\u00b8\u00aa"
+                },
+                {
+                    "pitch": 76,
+                    "start": 277.0,
+                    "end": 277.3125,
+                    "text": "\u00e5\u00a5\u00b9"
+                },
+                {
+                    "pitch": 78,
+                    "start": 277.3125,
+                    "end": 277.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 79,
+                    "start": 278.0,
+                    "end": 278.4375,
+                    "text": "\u00e8\u00ba\u00b2"
+                },
+                {
+                    "pitch": 78,
+                    "start": 278.4375,
+                    "end": 279.0,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 79,
+                    "start": 279.0,
+                    "end": 279.25,
+                    "text": "\u00e9\u0081\u00bf"
+                },
+                {
+                    "pitch": 78,
+                    "start": 279.25,
+                    "end": 279.75,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 79,
+                    "start": 279.75,
+                    "end": 280.0,
+                    "text": "\u00e9\u0097\u00aa"
+                },
+                {
+                    "pitch": 78,
+                    "start": 280.0,
+                    "end": 280.3125,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 79,
+                    "start": 280.3125,
+                    "end": 280.6875,
+                    "text": "\u00e7\u009e\u0092"
+                },
+                {
+                    "pitch": 78,
+                    "start": 280.6875,
+                    "end": 280.9375,
+                    "text": "\u00e8\u00bf\u0087"
+                },
+                {
+                    "pitch": 74,
+                    "start": 280.9375,
+                    "end": 281.25,
+                    "text": "#\u00e5\u00a5\u00b9"
+                },
+                {
+                    "pitch": 76,
+                    "start": 281.25,
+                    "end": 282.5,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 74,
+                    "start": 282.5625,
+                    "end": 285.5,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 73,
+                    "start": 285.5,
+                    "end": 285.75,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 285.75,
+                    "end": 286.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 73,
+                    "start": 286.0,
+                    "end": 287.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 288.5,
+                    "end": 289.0,
+                    "text": "\u00e5\u00a5\u00b9"
+                },
+                {
+                    "pitch": 76,
+                    "start": 289.0,
+                    "end": 290.0,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 74,
+                    "start": 290.0,
+                    "end": 290.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 290.5,
+                    "end": 293.5,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 81,
+                    "start": 293.5,
+                    "end": 298.0,
+                    "text": ""
+                },
+                {
+                    "pitch": 73,
+                    "start": 304.5,
+                    "end": 305.0,
+                    "text": "#\u00e5\u00a5\u00b9"
+                },
+                {
+                    "pitch": 76,
+                    "start": 305.0,
+                    "end": 306.0,
+                    "text": "\u00e6\u0098\u00af"
+                },
+                {
+                    "pitch": 74,
+                    "start": 306.0,
+                    "end": 306.5,
+                    "text": ""
+                },
+                {
+                    "pitch": 74,
+                    "start": 307.5,
+                    "end": 309.5,
+                    "text": "\u00e8\u00b0\u0081"
+                },
+                {
+                    "pitch": 71,
+                    "start": 309.5,
+                    "end": 312.0,
+                    "text": ""
+                }
+            ]
+        }
+    ]
+}
